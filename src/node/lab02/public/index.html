@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบคำนวณและประมวลผล - Lab 02</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Prompt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-zinc-50 text-zinc-800 min-h-screen antialiased flex flex-col justify-between p-4 sm:p-8">
+    <main class="w-full max-w-xl mx-auto my-auto py-6">
+        <!-- Header -->
+        <header class="mb-8 text-center sm:text-left">
+            <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-zinc-100 border border-zinc-200 text-xs font-medium text-zinc-600 mb-3">
+                <span>Node.js &amp; Express</span>
+                <span class="text-zinc-300">•</span>
+                <span>Lab 02</span>
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-bold text-zinc-900 tracking-tight">ระบบคำนวณและประมวลผล</h1>
+            <p class="text-sm text-zinc-500 mt-1.5">เลือกโปรแกรมที่ต้องการใช้งานเพื่อเริ่มต้นคำนวณข้อมูล</p>
+        </header>
+
+        <!-- Tool Cards List -->
+        <div class="space-y-3">
+            <!-- Program 1: Grade -->
+            <a href="grade.html"
+                class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-zinc-200 hover:border-zinc-300 hover:shadow-sm transition-all">
+                <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-zinc-100 text-zinc-700 flex items-center justify-center font-semibold text-sm group-hover:bg-zinc-900 group-hover:text-white transition-colors">
+                    01
+                </div>
+                <div class="flex-1 min-w-0">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-base font-semibold text-zinc-900 group-hover:text-zinc-700 transition-colors">
+                            โปรแกรมคำนวณเกรด (Grade)
+                        </h2>
+                        <span class="text-zinc-400 group-hover:text-zinc-700 transition-transform group-hover:translate-x-0.5">
+                            &rarr;
+                        </span>
+                    </div>
+                    <p class="text-xs text-zinc-500 mt-1">คำนวณคะแนนระหว่างภาคและปลายภาค ตัดเกรด A ถึง F ตามเกณฑ์มาตรฐาน</p>
+                </div>
+            </a>
+
+            <!-- Program 2: Discount Product -->
+            <a href="discount_product.html"
+                class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-zinc-200 hover:border-zinc-300 hover:shadow-sm transition-all">
+                <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-zinc-100 text-zinc-700 flex items-center justify-center font-semibold text-sm group-hover:bg-zinc-900 group-hover:text-white transition-colors">
+                    02
+                </div>
+                <div class="flex-1 min-w-0">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-base font-semibold text-zinc-900 group-hover:text-zinc-700 transition-colors">
+                            โปรแกรมคำนวณส่วนลดสินค้า
+                        </h2>
+                        <span class="text-zinc-400 group-hover:text-zinc-700 transition-transform group-hover:translate-x-0.5">
+                            &rarr;
+                        </span>
+                    </div>
+                    <p class="text-xs text-zinc-500 mt-1">คำนวณอัตราส่วนลดตามขั้นราคา สรุปยอดส่วนลดและจำนวนเงินสุทธิที่ต้องชำระ</p>
+                </div>
+            </a>
+
+            <!-- Program 3: Multiplication -->
+            <a href="multiplication.html"
+                class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-zinc-200 hover:border-zinc-300 hover:shadow-sm transition-all">
+                <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-zinc-100 text-zinc-700 flex items-center justify-center font-semibold text-sm group-hover:bg-zinc-900 group-hover:text-white transition-colors">
+                    03
+                </div>
+                <div class="flex-1 min-w-0">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-base font-semibold text-zinc-900 group-hover:text-zinc-700 transition-colors">
+                            โปรแกรมแม่สูตรคูณ
+                        </h2>
+                        <span class="text-zinc-400 group-hover:text-zinc-700 transition-transform group-hover:translate-x-0.5">
+                            &rarr;
+                        </span>
+                    </div>
+                    <p class="text-xs text-zinc-500 mt-1">สร้างตารางสูตรคูณตั้งแต่ลำดับที่ 1 ถึง 12 ตามแม่ตัวเลขที่ระบุ</p>
+                </div>
+            </a>
+
+            <!-- Program 4: BMI Calculator -->
+            <a href="bmi.html"
+                class="group flex items-start gap-4 p-4 rounded-xl bg-white border border-zinc-200 hover:border-zinc-300 hover:shadow-sm transition-all">
+                <div class="flex-shrink-0 w-9 h-9 rounded-lg bg-zinc-100 text-zinc-700 flex items-center justify-center font-semibold text-sm group-hover:bg-zinc-900 group-hover:text-white transition-colors">
+                    04
+                </div>
+                <div class="flex-1 min-w-0">
+                    <div class="flex items-center justify-between">
+                        <h2 class="text-base font-semibold text-zinc-900 group-hover:text-zinc-700 transition-colors">
+                            โปรแกรมคำนวณดัชนีมวลกาย (BMI)
+                        </h2>
+                        <span class="text-zinc-400 group-hover:text-zinc-700 transition-transform group-hover:translate-x-0.5">
+                            &rarr;
+                        </span>
+                    </div>
+                    <p class="text-xs text-zinc-500 mt-1">คำนวณค่าดัชนีมวลกายจากน้ำหนักและส่วนสูง พร้อมประเมินเกณฑ์ภาวะสุขภาพ</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Footer Note -->
+        <footer class="mt-8 text-center text-xs text-zinc-400">
+            Node.js Express Laboratory &bull; Clean Edition
+        </footer>
+    </main>
+</body>
+
+</html>

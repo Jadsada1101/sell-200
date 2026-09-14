@@ -1,0 +1,35 @@
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Code Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# PHP & Environment Files
+.env
+.env.local
+.env.*.local
+*.log
+error_log
+php_errors.log
+
+# Composer (Uncomment if using composer)
+# /vendor/
+
+# Temporary / Cache Directories
+/tmp/
+/temp/
+/cache/
+.sass-cache/
+.agents
